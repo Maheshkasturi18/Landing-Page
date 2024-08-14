@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.bg-blue {
+  background-color: rgb(0 105 143);
+}
+
+.bg-light-blue {
+  background-color: rgb(115 167 255);
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.bg-gradient-or {
+  background: rgb(255, 149, 0);
+}
+
+.max-wd {
+  max-width: 10%;
+}
+
+@media (468px <= width <= 768px) {
+  .max-wd {
+    max-width: 20%;
+  }
+}
+
+@media (width <= 468px) {
+  .max-wd {
+    max-width: 20%;
+  }
+}
